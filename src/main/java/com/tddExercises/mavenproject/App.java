@@ -81,9 +81,9 @@ public class App {
 			}
 		}
 
-        for (@SuppressWarnings("rawtypes") Map.Entry entry : charCountMap.entrySet()) {
-            System.out.println(entry.getKey() + " = " + entry.getValue());
-        }
+		for (@SuppressWarnings("rawtypes") Map.Entry entry : charCountMap.entrySet()) {
+		    System.out.println(entry.getKey() + " = " + entry.getValue());
+		}
 
 		return result;
 	}
